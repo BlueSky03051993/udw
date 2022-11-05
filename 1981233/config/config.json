@@ -1,0 +1,29 @@
+{
+    "development": {
+        "username": "aknfvgqykicyaj",
+        "password": "ec54906cc75d89504edafe469d6bbdccc14920470fb8530cb693f1973231361c",
+        "database": "d173srqrh9ou83",
+        "host": "ec2-35-170-21-76.compute-1.amazonaws.com",
+        "dialect": "postgres"
+    },
+    "test": {
+        "username": "postgres",
+        "password": "postgres",
+        "database": "cuoiky",
+        "host": "127.0.0.1",
+        "dialect": "postgres"
+    },
+    "production": {
+        "username": "aknfvgqykicyaj",
+        "password": "ec54906cc75d89504edafe469d6bbdccc14920470fb8530cb693f1973231361c",
+        "database": "d173srqrh9ou83",
+        "host": "ec2-35-170-21-76.compute-1.amazonaws.com",
+        "dialect": "postgres",
+        "dialectOptions": {
+            "ssl": {
+                "require": true,
+                "rejectUnauthorized": false
+            }
+        }
+    }
+}
